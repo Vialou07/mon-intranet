@@ -1,0 +1,12 @@
+.home-page {
+  padding: 20px;
+
+  &__title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    font-size: 18px; // Ajout du point-virgule ici
+  }
+}
