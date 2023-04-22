@@ -1,13 +1,9 @@
 import React from 'react';
-import './HomePage.scss';
 
-const HomePage: React.FC = () => {
+const HomePage = () => {
   return (
-    <div className="home-page">
-      <h1 className="home-page__title">Bienvenue sur l'intranet de l'entreprise</h1>
-      <p className="home-page__description">
-        Utilisez le menu de gauche pour naviguer dans les différentes sections de l'intranet.
-      </p>
+    <div style={{ backgroundColor: 'red' }}>
+      <h1>Hello, this is the home page!</h1>
     </div>
   );
 };

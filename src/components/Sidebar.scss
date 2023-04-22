@@ -1,7 +1,9 @@
 .sidebar {
-    background-color: #34495e;
-    width: 200px;
-    min-height: 100vh;
+  background-color: #2f3944;
+  padding: 1rem;
+  width: 200px;
+  height: 100%;
+  position: fixed;
   
     &__nav {
       padding-top: 20px;
